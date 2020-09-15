@@ -1,0 +1,84 @@
+.field, .field:disabled, .field:focus {
+    background-color: #b9ebf5;
+  }
+  
+  .field:disabled {
+    color: gray;
+  }
+  
+  .highlight {
+    font-weight: bold;
+  }
+  
+  #logos {
+    margin: 20px 0 20px 0;
+  }
+  
+  #logos img {
+    height: 100px;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  #title span {
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  #right-logo {
+    text-align: right;
+  }
+  
+  #swap {
+    padding: 0;
+  }
+  
+  #swap:disabled {
+    background-color: white;
+  }
+  
+  #swap_col .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+  }
+
+  #faq .tooltiptext {
+    visibility: hidden;
+    width: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    z-index: 1;
+  }
+  
+  #swap_col:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  #faq:hover .tooltiptext {
+    visibility: visible;
+  }
+    
+  #convert {
+    color: white;
+    font-weight: bold;
+    background-color: #25d366;
+  }

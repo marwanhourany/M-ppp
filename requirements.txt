@@ -1,0 +1,17 @@
+wheel
+email_validator
+flask
+Flask-BasicAuth
+flask-mail
+flask-migrate
+flask_admin
+flask_bcrypt
+flask_login
+flask_sqlalchemy
+flask_wtf
+jinja2
+openpyxl
+psycopg2-binary
+requests
+sqlalchemy-utils
+uwsgi
